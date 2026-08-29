@@ -11,12 +11,12 @@ class Settings(BaseSettings):
     DEBUG: bool = True
     
     # Path to IndoBERT fine-tuned model
-    MODEL_PATH: str = r"C:\Users\irsya\Downloads\model_sentimen\model_sentimen_terbaik"
+    MODEL_PATH: str = "./model_sentimen"
     DEVICE: str = "auto"  # 'auto', 'cuda', 'cpu'
     BATCH_SIZE: int = 32
     
     # RapidAPI Instagram Scraper
-    RAPIDAPI_KEY: str = "f525612013msh332bd9333071768p129595jsn5d3f8ab9a9ac"
+    RAPIDAPI_KEY: str = ""
     RAPIDAPI_HOST: str = "instagram-best-experience.p.rapidapi.com"
 
     # CORS

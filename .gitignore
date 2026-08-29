@@ -1,9 +1,41 @@
-
-sentimen-backend/venv/
+# Virtual Environments & Python Cache
 venv/
 .venv/
+env/
+ENV/
+sentimen-backend/venv/
+sentimen-backend/.venv/
 __pycache__/
-*.pyc
-node_modules/
-.env
+*.py[cod]
+*$py.class
+.pytest_cache/
 
+# Environment Secrets
+.env
+.env.local
+.env.*.local
+*.env
+!*.env.example
+
+# Node / Frontend Build & Dependencies
+node_modules/
+sentimen-frontend/node_modules/
+dist/
+sentimen-frontend/dist/
+dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs & Temporary Files
+*.log
+logs/
+
+# IDE & OS Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
