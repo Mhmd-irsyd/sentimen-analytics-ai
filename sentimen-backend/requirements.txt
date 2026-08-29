@@ -1,0 +1,16 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+python-multipart>=0.0.9
+torch>=2.2.0
+transformers>=4.38.0
+safetensors>=0.4.2
+pandas>=2.2.0
+openpyxl>=3.1.2
+numpy>=1.26.0
+youtube-comment-downloader>=0.1.72
+yt-dlp>=2024.3.10
+emoji>=2.11.0
+requests>=2.31.0
+pytest>=8.0.0
